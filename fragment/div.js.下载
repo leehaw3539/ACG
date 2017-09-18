@@ -1,0 +1,12 @@
+﻿function showdiv(divnum,divbefor,id){
+	for(i=1;i<=divnum;i++){
+		try{
+			if(i==divbefor){
+				document.getElementById(id+i).style.display="inline";
+			}else{
+				document.getElementById(id+i).style.display="none";
+			}
+		}catch(e){ }
+	}
+}
+function menuFix(){}
